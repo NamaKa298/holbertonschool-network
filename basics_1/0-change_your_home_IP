@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Define the path to the hosts file
 HOSTS_FILE="/etc/hosts"
 
