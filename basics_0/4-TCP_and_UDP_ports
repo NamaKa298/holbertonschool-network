@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-netstat -an -p tcp
+ss -tulnpx | awk 'NR>1 {print $1, $5, $7}'
