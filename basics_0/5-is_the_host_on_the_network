@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Vérifie si un argument a été passé
 if [ $# -ne 1 ]; then
