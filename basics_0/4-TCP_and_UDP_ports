@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+# Task: List the TCP and UDP ports that are open on your machine.
 ss -tulnpx | awk 'NR>1 {print $1, $5, $7}'
