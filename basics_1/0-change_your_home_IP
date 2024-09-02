@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Ajoute les résolutions nécessaires au fichier /etc/hosts
+echo "127.0.0.2   localhost" | sudo tee -a /etc/hosts > /dev/null
+echo "8.8.8.8     facebook.com" | sudo tee -a /etc/hosts > /dev/null
